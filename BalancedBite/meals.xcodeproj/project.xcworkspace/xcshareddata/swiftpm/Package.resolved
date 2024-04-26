@@ -1,0 +1,41 @@
+{
+  "pins" : [
+    {
+      "identity" : "aachartkit-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AAChartModel/AAChartKit-Swift",
+      "state" : {
+        "branch" : "master",
+        "revision" : "bb2d80dad8604e9256b99301fd72af33d495bff0"
+      }
+    },
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "51d67100121d586c9d15ec0227de96442af4dd6d"
+      }
+    },
+    {
+      "identity" : "bottomsheet",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/adamfootdev/BottomSheet.git",
+      "state" : {
+        "revision" : "0e6db002eeb5e3ba402e94dfe6a120f78b5a64df",
+        "version" : "0.2.4"
+      }
+    },
+    {
+      "identity" : "trackable-scroll-view",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/maxnatchanon/trackable-scroll-view",
+      "state" : {
+        "branch" : "master",
+        "revision" : "4b094575c2370c3341d0b377a27b46bda4f937f7"
+      }
+    }
+  ],
+  "version" : 2
+}

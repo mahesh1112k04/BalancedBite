@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FFA310A5ED6DEA4868EF241 /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA3E26C8FF5EEC5BDA501E /* PhotoStore.swift */; };
+		8FFA31139F73232981DCD7B2 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA3C2CEEEFC1BF376F7967 /* Color.swift */; };
+		8FFA330E49738C2FB106E80A /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA39E0C6D7684725AB59DB /* Store.swift */; };
+		8FFA336FC60D5D29940DB80E /* EventStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA32311003343798A2F424 /* EventStore.swift */; };
+		8FFA3567C2B9C90968230486 /* Insulin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA33E5F3EA1A6EECF0A486 /* Insulin.swift */; };
+		8FFA362D05719805CFF50452 /* Integrations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA355B431669898CA34CCF /* Integrations.swift */; };
+		8FFA37B3B7031523D3EE7BF7 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA3DBE52A31B60B727A8EF /* Statistics.swift */; };
+		8FFA38A56F641618F18F3FCB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA3D99577E6C4E575AE0A6 /* SettingsView.swift */; };
+		8FFA39889B04E4B4FC6F09D0 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA35F0C982E26FE8ED1FFF /* Date.swift */; };
+		8FFA3DEBF580CF33630BFD21 /* StatisticsChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA38EDFC069DF4F72498C3 /* StatisticsChart.swift */; };
+		8FFA3F036412E2B7F2D8358D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA380A8AA3D9B675C7CFC3 /* README.md */; };
+		8FFA3F2607F2938D6DD3BA22 /* MealStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA312F6D9B14F5F8A89498 /* MealStore.swift */; };
+		8FFA3FBEC18E8E8FFF166875 /* EventListSkeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFA3615549B73CF0DCB6D79 /* EventListSkeleton.swift */; };
+		DF07B31D2826933700C164AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF07B31C2826933700C164AB /* ContentView.swift */; };
+		DF07B31F2826933800C164AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF07B31E2826933800C164AB /* Assets.xcassets */; };
+		DF07B32C2826939F00C164AB /* MealList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF07B32B2826939F00C164AB /* MealList.swift */; };
+		DF07B3342826944600C164AB /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF07B3332826944600C164AB /* Meal.swift */; };
+		DF07B33928269A2A00C164AB /* MealEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF07B33828269A2A00C164AB /* MealEditor.swift */; };
+		DF114AF2283223EC0089BF0B /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF114AF1283223EC0089BF0B /* HealthKit.framework */; };
+		DF11C2E92916479F00C18242 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF11C2E82916479F00C18242 /* OnboardingView.swift */; };
+		DF12302C28784216007156DD /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = DF12302B28784216007156DD /* BottomSheet */; };
+		DF123030287955F1007156DD /* Nightscout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF12302F287955F1007156DD /* Nightscout.swift */; };
+		DF12303328795D6F007156DD /* MetricStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF12303228795D6F007156DD /* MetricStore.swift */; };
+		DF27CFD52945D87D0044D3B0 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF27CFD42945D87D0044D3B0 /* Theme.swift */; };
+		DF282F712838B8380044C1EF /* MealCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF282F702838B8380044C1EF /* MealCard.swift */; };
+		DF282F762838C27F0044C1EF /* CornerRadiusModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF282F752838C27F0044C1EF /* CornerRadiusModifier.swift */; };
+		DF30479528F92A33007E2CC6 /* SwiftUITrackableScrollView in Frameworks */ = {isa = PBXBuildFile; productRef = DF30479428F92A33007E2CC6 /* SwiftUITrackableScrollView */; };
+		DF37D5E928354573007BEFE3 /* HealthKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF37D5E828354573007BEFE3 /* HealthKit.swift */; };
+		DF3D07C3282FFB8D003E36BD /* MealDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3D07C2282FFB8D003E36BD /* MealDetails.swift */; };
+		DF4FE1472928B8A20074F360 /* NoDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4FE1462928B8A20074F360 /* NoDataView.swift */; };
+		DF4FE1492928C1170074F360 /* GlucoseInsulinGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4FE1482928C1170074F360 /* GlucoseInsulinGraph.swift */; };
+		DF4FE14B2928E6B60074F360 /* UpdateEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4FE14A2928E6B60074F360 /* UpdateEventView.swift */; };
+		DF4FE14D2928E7F40074F360 /* NoPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4FE14C2928E7F40074F360 /* NoPhotoView.swift */; };
+		DF59D90328E2C93800A7333E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF07B3212826933800C164AB /* Preview Assets.xcassets */; };
+		DF7C9EDB290E6455000BA6C7 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7C9EDA290E6455000BA6C7 /* Math.swift */; };
+		DF8A73A028DF32C50095E9FF /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8A739F28DF32C50095E9FF /* Debug.swift */; };
+		DF8A73A228DF38E60095E9FF /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8A73A128DF38E60095E9FF /* Error.swift */; };
+		DF937573283012DA00CBE618 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF937572283012DA00CBE618 /* Event.swift */; };
+		DF937575283012E100CBE618 /* Metric.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF937574283012E100CBE618 /* Metric.swift */; };
+		DF9375772830137200CBE618 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9375762830137200CBE618 /* EventView.swift */; };
+		DF9375792830156500CBE618 /* MetricGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9375782830156500CBE618 /* MetricGraph.swift */; };
+		DF98888728FBCC9D001B0D92 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF98888628FBCC9D001B0D92 /* TimelineView.swift */; };
+		DFA0E56B2847DE1100323B35 /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA0E56A2847DE1100323B35 /* EventList.swift */; };
+		DFAB190628F045A400E4AB00 /* InsulinStatisticsChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAB190528F045A400E4AB00 /* InsulinStatisticsChart.swift */; };
+		DFDEC41228EFF63600E0410C /* AAInfographics in Frameworks */ = {isa = PBXBuildFile; productRef = DFDEC41128EFF63600E0410C /* AAInfographics */; };
+		DFDEC41428F006A200E0410C /* GlucoseChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDEC41328F006A200E0410C /* GlucoseChart.swift */; };
+		DFDEC41628F006BC00E0410C /* InsulinChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDEC41528F006BC00E0410C /* InsulinChart.swift */; };
+		DFDEC41828F0073300E0410C /* GlucoseStatisticsChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDEC41728F0073300E0410C /* GlucoseStatisticsChart.swift */; };
+		DFE8279B28B10EEF004F29FF /* MealsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE8279A28B10EEF004F29FF /* MealsApp.swift */; };
+		DFE8D35C2840CA5400937CAB /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE8D35B2840CA5400937CAB /* PhotoPicker.swift */; };
+		DFF2DFCE28813E88008251DC /* LoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF2DFCD28813E88008251DC /* LoadingButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8FFA312F6D9B14F5F8A89498 /* MealStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealStore.swift; sourceTree = "<group>"; };
+		8FFA32311003343798A2F424 /* EventStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventStore.swift; sourceTree = "<group>"; };
+		8FFA33E5F3EA1A6EECF0A486 /* Insulin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Insulin.swift; sourceTree = "<group>"; };
+		8FFA355B431669898CA34CCF /* Integrations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Integrations.swift; sourceTree = "<group>"; };
+		8FFA35F0C982E26FE8ED1FFF /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		8FFA3615549B73CF0DCB6D79 /* EventListSkeleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventListSkeleton.swift; sourceTree = "<group>"; };
+		8FFA380A8AA3D9B675C7CFC3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8FFA38EDFC069DF4F72498C3 /* StatisticsChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticsChart.swift; sourceTree = "<group>"; };
+		8FFA39E0C6D7684725AB59DB /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		8FFA3C2CEEEFC1BF376F7967 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		8FFA3D99577E6C4E575AE0A6 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		8FFA3DBE52A31B60B727A8EF /* Statistics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
+		8FFA3E26C8FF5EEC5BDA501E /* PhotoStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
+		DF07B3172826933700C164AB /* meals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF07B31C2826933700C164AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF07B31E2826933800C164AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF07B3212826933800C164AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF07B32B2826939F00C164AB /* MealList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealList.swift; sourceTree = "<group>"; };
+		DF07B3332826944600C164AB /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		DF07B33828269A2A00C164AB /* MealEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealEditor.swift; sourceTree = "<group>"; };
+		DF114AEF283223EC0089BF0B /* meals.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = meals.entitlements; sourceTree = "<group>"; };
+		DF114AF1283223EC0089BF0B /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		DF11C2E82916479F00C18242 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		DF12302F287955F1007156DD /* Nightscout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nightscout.swift; sourceTree = "<group>"; };
+		DF12303228795D6F007156DD /* MetricStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricStore.swift; sourceTree = "<group>"; };
+		DF27CFD42945D87D0044D3B0 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		DF282F702838B8380044C1EF /* MealCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealCard.swift; sourceTree = "<group>"; };
+		DF282F752838C27F0044C1EF /* CornerRadiusModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusModifier.swift; sourceTree = "<group>"; };
+		DF37D5E828354573007BEFE3 /* HealthKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKit.swift; sourceTree = "<group>"; };
+		DF3D07C2282FFB8D003E36BD /* MealDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetails.swift; sourceTree = "<group>"; };
+		DF4FE1462928B8A20074F360 /* NoDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDataView.swift; sourceTree = "<group>"; };
+		DF4FE1482928C1170074F360 /* GlucoseInsulinGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoseInsulinGraph.swift; sourceTree = "<group>"; };
+		DF4FE14A2928E6B60074F360 /* UpdateEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateEventView.swift; sourceTree = "<group>"; };
+		DF4FE14C2928E7F40074F360 /* NoPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoPhotoView.swift; sourceTree = "<group>"; };
+		DF7C9EDA290E6455000BA6C7 /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		DF8A739F28DF32C50095E9FF /* Debug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debug.swift; sourceTree = "<group>"; };
+		DF8A73A128DF38E60095E9FF /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		DF937572283012DA00CBE618 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		DF937574283012E100CBE618 /* Metric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metric.swift; sourceTree = "<group>"; };
+		DF9375762830137200CBE618 /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		DF9375782830156500CBE618 /* MetricGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricGraph.swift; sourceTree = "<group>"; };
+		DF98888628FBCC9D001B0D92 /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		DFA0E56A2847DE1100323B35 /* EventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventList.swift; sourceTree = "<group>"; };
+		DFAB190528F045A400E4AB00 /* InsulinStatisticsChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsulinStatisticsChart.swift; sourceTree = "<group>"; };
+		DFDEC41328F006A200E0410C /* GlucoseChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoseChart.swift; sourceTree = "<group>"; };
+		DFDEC41528F006BC00E0410C /* InsulinChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsulinChart.swift; sourceTree = "<group>"; };
+		DFDEC41728F0073300E0410C /* GlucoseStatisticsChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlucoseStatisticsChart.swift; sourceTree = "<group>"; };
+		DFE8279A28B10EEF004F29FF /* MealsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsApp.swift; sourceTree = "<group>"; };
+		DFE8D35B2840CA5400937CAB /* PhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
+		DFF2DFCD28813E88008251DC /* LoadingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF07B3142826933700C164AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF30479528F92A33007E2CC6 /* SwiftUITrackableScrollView in Frameworks */,
+				DFDEC41228EFF63600E0410C /* AAInfographics in Frameworks */,
+				DF114AF2283223EC0089BF0B /* HealthKit.framework in Frameworks */,
+				DF12302C28784216007156DD /* BottomSheet in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FFA3830C547BB2925EE54E2 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				8FFA39E0C6D7684725AB59DB /* Store.swift */,
+				8FFA312F6D9B14F5F8A89498 /* MealStore.swift */,
+				8FFA32311003343798A2F424 /* EventStore.swift */,
+				8FFA3E26C8FF5EEC5BDA501E /* PhotoStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		8FFA393E241D9C25D43CB3DA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8FFA3C2CEEEFC1BF376F7967 /* Color.swift */,
+				8FFA33E5F3EA1A6EECF0A486 /* Insulin.swift */,
+				8FFA3DBE52A31B60B727A8EF /* Statistics.swift */,
+				8FFA35F0C982E26FE8ED1FFF /* Date.swift */,
+				DF7C9EDA290E6455000BA6C7 /* Math.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DF07B30E2826933700C164AB = {
+			isa = PBXGroup;
+			children = (
+				DF07B3192826933700C164AB /* meals */,
+				DF07B3182826933700C164AB /* Products */,
+				DF114AF0283223EC0089BF0B /* Frameworks */,
+				8FFA380A8AA3D9B675C7CFC3 /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+		DF07B3182826933700C164AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF07B3172826933700C164AB /* meals.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF07B3192826933700C164AB /* meals */ = {
+			isa = PBXGroup;
+			children = (
+				DF114AEF283223EC0089BF0B /* meals.entitlements */,
+				DFE8279A28B10EEF004F29FF /* MealsApp.swift */,
+				DF07B31E2826933800C164AB /* Assets.xcassets */,
+				DF123031287955F9007156DD /* Integrations */,
+				8FFA3830C547BB2925EE54E2 /* Store */,
+				DF07B3322826943B00C164AB /* Models */,
+				DF07B3312826942C00C164AB /* Views */,
+				DF07B3202826933800C164AB /* Preview Content */,
+				8FFA393E241D9C25D43CB3DA /* Utils */,
+			);
+			path = meals;
+			sourceTree = "<group>";
+		};
+		DF07B3202826933800C164AB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF07B3212826933800C164AB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF07B3312826942C00C164AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF07B31C2826933700C164AB /* ContentView.swift */,
+				8FFA3D99577E6C4E575AE0A6 /* SettingsView.swift */,
+				DF11C2E82916479F00C18242 /* OnboardingView.swift */,
+				DF114AED283223610089BF0B /* Meals */,
+				DFECDE38284B1E7900FCDF35 /* Event */,
+				DF630AF328E8231400F8B990 /* Chart */,
+				DF114AEE283223750089BF0B /* Metrics */,
+				DF282F742838C26D0044C1EF /* Helpers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF07B3322826943B00C164AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DF07B3332826944600C164AB /* Meal.swift */,
+				DF937572283012DA00CBE618 /* Event.swift */,
+				DF937574283012E100CBE618 /* Metric.swift */,
+				DF8A73A128DF38E60095E9FF /* Error.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DF114AED283223610089BF0B /* Meals */ = {
+			isa = PBXGroup;
+			children = (
+				DF07B32B2826939F00C164AB /* MealList.swift */,
+				DF07B33828269A2A00C164AB /* MealEditor.swift */,
+				DF3D07C2282FFB8D003E36BD /* MealDetails.swift */,
+				DF282F702838B8380044C1EF /* MealCard.swift */,
+			);
+			path = Meals;
+			sourceTree = "<group>";
+		};
+		DF114AEE283223750089BF0B /* Metrics */ = {
+			isa = PBXGroup;
+			children = (
+				DF9375782830156500CBE618 /* MetricGraph.swift */,
+				DF4FE1482928C1170074F360 /* GlucoseInsulinGraph.swift */,
+			);
+			path = Metrics;
+			sourceTree = "<group>";
+		};
+		DF114AF0283223EC0089BF0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF114AF1283223EC0089BF0B /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF123031287955F9007156DD /* Integrations */ = {
+			isa = PBXGroup;
+			children = (
+				8FFA355B431669898CA34CCF /* Integrations.swift */,
+				DF37D5E828354573007BEFE3 /* HealthKit.swift */,
+				DF12302F287955F1007156DD /* Nightscout.swift */,
+				DF12303228795D6F007156DD /* MetricStore.swift */,
+				DF8A739F28DF32C50095E9FF /* Debug.swift */,
+			);
+			path = Integrations;
+			sourceTree = "<group>";
+		};
+		DF282F742838C26D0044C1EF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DFE8D35B2840CA5400937CAB /* PhotoPicker.swift */,
+				DF282F752838C27F0044C1EF /* CornerRadiusModifier.swift */,
+				DFF2DFCD28813E88008251DC /* LoadingButton.swift */,
+				DF4FE1462928B8A20074F360 /* NoDataView.swift */,
+				DF4FE14C2928E7F40074F360 /* NoPhotoView.swift */,
+				DF27CFD42945D87D0044D3B0 /* Theme.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DF630AF328E8231400F8B990 /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				DFDEC41328F006A200E0410C /* GlucoseChart.swift */,
+				DFDEC41528F006BC00E0410C /* InsulinChart.swift */,
+				DFDEC41728F0073300E0410C /* GlucoseStatisticsChart.swift */,
+				DFAB190528F045A400E4AB00 /* InsulinStatisticsChart.swift */,
+				8FFA38EDFC069DF4F72498C3 /* StatisticsChart.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		DFECDE38284B1E7900FCDF35 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				DF9375762830137200CBE618 /* EventView.swift */,
+				DFA0E56A2847DE1100323B35 /* EventList.swift */,
+				8FFA3615549B73CF0DCB6D79 /* EventListSkeleton.swift */,
+				DF98888628FBCC9D001B0D92 /* TimelineView.swift */,
+				DF4FE14A2928E6B60074F360 /* UpdateEventView.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF07B3162826933700C164AB /* meals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF07B3252826933800C164AB /* Build configuration list for PBXNativeTarget "meals" */;
+			buildPhases = (
+				DF07B3132826933700C164AB /* Sources */,
+				DF07B3142826933700C164AB /* Frameworks */,
+				DF07B3152826933700C164AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = meals;
+			packageProductDependencies = (
+				DF12302B28784216007156DD /* BottomSheet */,
+				DFDEC41128EFF63600E0410C /* AAInfographics */,
+				DF30479428F92A33007E2CC6 /* SwiftUITrackableScrollView */,
+			);
+			productName = meals;
+			productReference = DF07B3172826933700C164AB /* meals.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF07B30F2826933700C164AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					DF07B3162826933700C164AB = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = DF07B3122826933700C164AB /* Build configuration list for PBXProject "meals" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF07B30E2826933700C164AB;
+			packageReferences = (
+				DF38A93D286EE71B0041F304 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				DF12302A28784216007156DD /* XCRemoteSwiftPackageReference "BottomSheet" */,
+				DFDEC41028EFF63600E0410C /* XCRemoteSwiftPackageReference "AAChartKit-Swift" */,
+				DF30479328F92A33007E2CC6 /* XCRemoteSwiftPackageReference "trackable-scroll-view" */,
+				DF43DFA6294A0E9400E66554 /* XCRemoteSwiftPackageReference "SwiftCharts" */,
+			);
+			productRefGroup = DF07B3182826933700C164AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF07B3162826933700C164AB /* meals */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF07B3152826933700C164AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF59D90328E2C93800A7333E /* Preview Assets.xcassets in Resources */,
+				DF07B31F2826933800C164AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF07B3132826933700C164AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE8279B28B10EEF004F29FF /* MealsApp.swift in Sources */,
+				DF98888728FBCC9D001B0D92 /* TimelineView.swift in Sources */,
+				DF937573283012DA00CBE618 /* Event.swift in Sources */,
+				DFAB190628F045A400E4AB00 /* InsulinStatisticsChart.swift in Sources */,
+				DFDEC41828F0073300E0410C /* GlucoseStatisticsChart.swift in Sources */,
+				DF07B3342826944600C164AB /* Meal.swift in Sources */,
+				DFDEC41428F006A200E0410C /* GlucoseChart.swift in Sources */,
+				DF282F712838B8380044C1EF /* MealCard.swift in Sources */,
+				DF11C2E92916479F00C18242 /* OnboardingView.swift in Sources */,
+				DF37D5E928354573007BEFE3 /* HealthKit.swift in Sources */,
+				DF07B33928269A2A00C164AB /* MealEditor.swift in Sources */,
+				DF8A73A028DF32C50095E9FF /* Debug.swift in Sources */,
+				DF282F762838C27F0044C1EF /* CornerRadiusModifier.swift in Sources */,
+				DFA0E56B2847DE1100323B35 /* EventList.swift in Sources */,
+				DF07B32C2826939F00C164AB /* MealList.swift in Sources */,
+				DF12303328795D6F007156DD /* MetricStore.swift in Sources */,
+				DF9375772830137200CBE618 /* EventView.swift in Sources */,
+				DF7C9EDB290E6455000BA6C7 /* Math.swift in Sources */,
+				DF3D07C3282FFB8D003E36BD /* MealDetails.swift in Sources */,
+				DF07B31D2826933700C164AB /* ContentView.swift in Sources */,
+				DFE8D35C2840CA5400937CAB /* PhotoPicker.swift in Sources */,
+				DF9375792830156500CBE618 /* MetricGraph.swift in Sources */,
+				DF937575283012E100CBE618 /* Metric.swift in Sources */,
+				DF123030287955F1007156DD /* Nightscout.swift in Sources */,
+				DFF2DFCE28813E88008251DC /* LoadingButton.swift in Sources */,
+				DF8A73A228DF38E60095E9FF /* Error.swift in Sources */,
+				8FFA3FBEC18E8E8FFF166875 /* EventListSkeleton.swift in Sources */,
+				DF27CFD52945D87D0044D3B0 /* Theme.swift in Sources */,
+				8FFA38A56F641618F18F3FCB /* SettingsView.swift in Sources */,
+				8FFA330E49738C2FB106E80A /* Store.swift in Sources */,
+				DF4FE14B2928E6B60074F360 /* UpdateEventView.swift in Sources */,
+				8FFA3F2607F2938D6DD3BA22 /* MealStore.swift in Sources */,
+				DF4FE1472928B8A20074F360 /* NoDataView.swift in Sources */,
+				8FFA336FC60D5D29940DB80E /* EventStore.swift in Sources */,
+				DFDEC41628F006BC00E0410C /* InsulinChart.swift in Sources */,
+				8FFA310A5ED6DEA4868EF241 /* PhotoStore.swift in Sources */,
+				DF4FE1492928C1170074F360 /* GlucoseInsulinGraph.swift in Sources */,
+				8FFA362D05719805CFF50452 /* Integrations.swift in Sources */,
+				8FFA3F036412E2B7F2D8358D /* README.md in Sources */,
+				DF4FE14D2928E7F40074F360 /* NoPhotoView.swift in Sources */,
+				8FFA31139F73232981DCD7B2 /* Color.swift in Sources */,
+				8FFA3567C2B9C90968230486 /* Insulin.swift in Sources */,
+				8FFA37B3B7031523D3EE7BF7 /* Statistics.swift in Sources */,
+				8FFA39889B04E4B4FC6F09D0 /* Date.swift in Sources */,
+				8FFA3DEBF580CF33630BFD21 /* StatisticsChart.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DF07B3232826933800C164AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "\"-Xlinker -interposable\"";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF07B3242826933800C164AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "\"-Xlinker -interposable\"";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF07B3262826933800C164AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = meals/meals.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"meals/Preview Content\"";
+				DEVELOPMENT_TEAM = Z2464VPQLZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app can upload meal photos";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "The app needs to get glucose data";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "The app needs to get glucose data";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.airmed.meals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF07B3272826933800C164AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = meals/meals.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"meals/Preview Content\"";
+				DEVELOPMENT_TEAM = Z2464VPQLZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app can upload meal photos";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "The app needs to get glucose data";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "The app needs to get glucose data";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.airmed.meals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF07B3122826933700C164AB /* Build configuration list for PBXProject "meals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF07B3232826933800C164AB /* Debug */,
+				DF07B3242826933800C164AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF07B3252826933800C164AB /* Build configuration list for PBXNativeTarget "meals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF07B3262826933800C164AB /* Debug */,
+				DF07B3272826933800C164AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DF12302A28784216007156DD /* XCRemoteSwiftPackageReference "BottomSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamfootdev/BottomSheet.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.4;
+			};
+		};
+		DF30479328F92A33007E2CC6 /* XCRemoteSwiftPackageReference "trackable-scroll-view" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxnatchanon/trackable-scroll-view";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		DF38A93D286EE71B0041F304 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		DF43DFA6294A0E9400E66554 /* XCRemoteSwiftPackageReference "SwiftCharts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ivanschuetz/SwiftCharts";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		DFDEC41028EFF63600E0410C /* XCRemoteSwiftPackageReference "AAChartKit-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AAChartModel/AAChartKit-Swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DF12302B28784216007156DD /* BottomSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF12302A28784216007156DD /* XCRemoteSwiftPackageReference "BottomSheet" */;
+			productName = BottomSheet;
+		};
+		DF30479428F92A33007E2CC6 /* SwiftUITrackableScrollView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF30479328F92A33007E2CC6 /* XCRemoteSwiftPackageReference "trackable-scroll-view" */;
+			productName = SwiftUITrackableScrollView;
+		};
+		DFDEC41128EFF63600E0410C /* AAInfographics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DFDEC41028EFF63600E0410C /* XCRemoteSwiftPackageReference "AAChartKit-Swift" */;
+			productName = AAInfographics;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DF07B30F2826933700C164AB /* Project object */;
+}
